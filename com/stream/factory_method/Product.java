@@ -1,3 +1,3 @@
-public abstract Product{
+public abstract class Product{
   public abstract void use();
 }
