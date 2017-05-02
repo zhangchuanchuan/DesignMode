@@ -40,7 +40,7 @@ public class ProbStrategy implements Strategy {
   public void study(boolean win) {
     if (win) {
       history[preHandValue][currentHandValue] ++;
-    // } else {
+    } else {
       history[preHandValue][(currentHandValue + 1) % 3] ++;
       history[preHandValue][(currentHandValue + 2) % 3] ++;
     }
